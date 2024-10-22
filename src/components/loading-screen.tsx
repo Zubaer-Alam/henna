@@ -23,14 +23,14 @@ export const LoadingScreen = () => {
             className="mx-auto"
           />
         </motion.div>
-        <motion.h1
+        {/* <motion.h1
           initial={{ y: 20, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.4 }}
           className="mt-4 text-4xl font-bold text-[#4A3728]"
         >
           Faria's Henna
-        </motion.h1>
+        </motion.h1> */}
         <motion.div
           initial={{ scale: 0.8, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}

@@ -43,8 +43,8 @@ export default function LandingPage() {
       transition={{ duration: 0.5 }}
       className="min-h-screen bg-[#FDF7F2] text-[#4A3728] font-serif"
     >
-      <header className="py-4 px-4 bg-white/80 backdrop-blur-md shadow-md sticky top-0 z-40">
-        <div className="max-w-6xl mx-auto flex justify-between items-center">
+      <header className="bg-white/80 backdrop-blur-md shadow-md sticky top-0 z-40">
+        <div className="pr-4 max-w-6xl mx-auto flex justify-between items-center">
           <div className="flex items-center">
             <Image
               src="/henna-logo.svg"
@@ -53,7 +53,7 @@ export default function LandingPage() {
               height={100}
               className=""
             />
-            <span className="text-2xl font-bold text-[#8B6E5A]">Faria's Henna</span>
+            {/* <span className="text-2xl font-bold text-[#8B6E5A]">Faria's Henna</span> */}
           </div>
           <nav className="hidden md:block">
             <ul className="flex space-x-6">
